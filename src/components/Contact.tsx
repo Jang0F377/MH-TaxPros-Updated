@@ -3,25 +3,25 @@ import {
 	EnvelopeIcon,
 	BuildingOfficeIcon,
 } from "@heroicons/react/16/solid";
-import { useState } from "react";
+// import { useState } from "react";
 
 function Contact() {
-	const [firstName, setFirstName] = useState("");
-	const [lastName, setLastName] = useState("");
-	const [email, setEmail] = useState("");
-	const [phone, setPhone] = useState("");
-	const [subject, setSubject] = useState("");
-	const [message, setMessage] = useState("");
+	// const [firstName, setFirstName] = useState("");
+	// const [lastName, setLastName] = useState("");
+	// const [email, setEmail] = useState("");
+	// const [phone, setPhone] = useState("");
+	// const [subject, setSubject] = useState("");
+	// const [message, setMessage] = useState("");
 
-	const handleClick = () => {
-		setFirstName("");
-		setLastName("");
-		setEmail("");
-		setPhone("");
-		setSubject("");
-		setMessage("");
-		alert("Thank you for your message");
-	};
+	// const handleClick = () => {
+	// 	setFirstName("");
+	// 	setLastName("");
+	// 	setEmail("");
+	// 	setPhone("");
+	// 	setSubject("");
+	// 	setMessage("");
+	// 	alert("Thank you for your message");
+	// };
 	return (
 		<div className="font-inter flex mx-auto" id="contact">
 			<div className="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8 ">

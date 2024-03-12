@@ -1,4 +1,4 @@
-export const newsCards: Array<Record<string, number | string>> = [
+export const newsCards: Array<Record<string, any>> = [
 	{
 		id: 0,
 		title: "Still need to file?",
