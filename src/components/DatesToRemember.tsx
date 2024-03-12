@@ -3,10 +3,7 @@ import { useState } from "react";
 import { datesToRemember } from "../sharedData/datesToRemember";
 
 function DatesToRemember() {
-	const [dates, setDates] = useState(datesToRemember);
-	function classNames(...classes: any[]) {
-		return classes.filter(Boolean).join(" ");
-	}
+	const [dates] = useState(datesToRemember);
 
 	return (
 		<div className="mx-auto justify-center rounded-lg bg-blue-200 py-4 px-4   ">

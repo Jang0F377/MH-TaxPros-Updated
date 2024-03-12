@@ -3,7 +3,7 @@ import { newsCards } from "../sharedData/newsCards";
 import { useRef, useState } from "react";
 
 function RecentNewsCards() {
-	const [news, setNews] = useState(newsCards);
+	const [news] = useState(newsCards);
 	const ref = useRef(null);
 	const isInView = useInView(ref, { once: true });
 
