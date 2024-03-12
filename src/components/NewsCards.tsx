@@ -27,7 +27,7 @@ function RecentNewsCards() {
 								className="mx-auto flex"
 								key={x.id}
 							>
-								<div className="bg-money-green-complimentary lg: m-1.5 m-3 flex max-w-lg justify-center rounded-lg px-1.5 pb-1.5 md:my-2.5 ">
+								<div className="bg-money-green-complimentary lg:m-1.5 m-3 flex max-w-lg justify-center rounded-lg px-1.5 pb-1.5 md:my-2.5 ">
 									<div className="flex flex-col text-center text-black ">
 										<h1 className="mt-0.5 py-0.5 text-center text-lg font-medium">
 											{x?.title}
